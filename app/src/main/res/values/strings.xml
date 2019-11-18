@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">HajirKhata</string>
+    <string name="welcome">Welcome To Digital Attendence Hajir Khata</string>
+    <string name="Who">Who are You?</string>
+    <string name="adminlogbtn">Admin</string>
+    <string name="facultylogbtn">Faculty</string>
+    <string name="adminwelcome">Welcome Admin Please provide your login credentials</string>
+    <string name="facultywelcome">Welcome Professor Please provide your login credentials</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="logbtn">Login</string>
+    <string name="addfbtn">Add Faculty</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="lname">LastName</string>
+    <string-array name="cource">
+        <item>BIT</item>
+        <item>BCA</item>
+    </string-array>
+    <string name="addstbtn">Add Student</string>
+    <string name="fdb">Faculty Login </string>
+    <string name="adda">Add Attendence</string>
+    <string name="vattd">View Attendence</string>
+    <string name="vc">View Classes</string>
+    <string name="cp">Change Password</string>
+    <string name="logout">LogOut</string>
+    <string name="assignclass">Assign classes</string>
+    <string name="increasebatch">Upgrade Batch</string>
+    <string name="viewstudent">View Student</string>
+    <string name="viewfaculty">View Faculty</string>
+    <string name="viewattendance">View Attendance</string>
+    <string name="op">Old Password</string>
+    <string name="np">New Password</string>
+    <string name="cnp">Comfirm New Password</string>
+    <string name="chof">Select faculty</string>
+    <string name="choc">Choose Class</string>
+    <string name="cs">Choose Subject</string>
+    <string name="cc">Choose Program</string>
+
+</resources>
