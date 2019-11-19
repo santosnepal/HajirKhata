@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class facultydashboard extends AppCompatActivity {
-    Button cp;
+    Button cp,vc;
     String cname,clname,cusername,cpassword;
     Intent i;
 
@@ -17,11 +17,21 @@ public class facultydashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_facultydashboard);
         cp=(Button)findViewById(R.id.button11);
+        vc=(Button)findViewById(R.id.button10);
         cp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 getfromcaller();
                 i=new Intent(facultydashboard.this,changepassword.class);
+                pass();
+                startActivity(i);
+            }
+        });
+        vc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getfromcaller();
+                i=new Intent(facultydashboard.this,viewclass.class);
                 pass();
                 startActivity(i);
             }

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".viewfaculty"></activity>
+        <activity android:name=".viewclass"></activity>
+        <activity android:name=".viewfaculty" />
         <activity android:name=".assignclass" />
         <activity android:name=".changepassword" />
         <activity android:name=".facultydashboard" />
